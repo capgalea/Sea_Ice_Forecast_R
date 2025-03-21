@@ -29,13 +29,17 @@ This repository contains code for developing, training, and evaluating sea ice f
 
 - R (version 3.6 or higher recommended)
 - Required R packages (install using `install.packages()`):
-  - tidyverse
-  - ggplot2
-  - lubridate
+  - tidyr
+  - TSA
+  - tseries
+  - FSAdata
   - forecast
-  - ncdf4
-  - raster
-  - sf
+  - fUnitRoots
+  - lmtest
+  - dplyr
+  - CombMSC
+  - AID
+  - nortest
 
 ### Installation
 
@@ -49,7 +53,7 @@ This repository contains code for developing, training, and evaluating sea ice f
    ```
 3. Install required R packages if not already installed:
    ```R
-   install.packages(c("tidyverse", "ggplot2", "lubridate", "forecast", "ncdf4", "raster", "sf"))
+   install.packages(c("tidyr", "TSA", "tseries", "FSAdata", "forecast", "fUnitRoots", "lmtest", "dplyr". "CombMSC", "AID", "nortest"))
    ```
 
 ## Usage
@@ -80,9 +84,7 @@ source("scripts/visualize_results.R")
 ## Data Sources
 
 The models use sea ice concentration data from various sources including:
-- National Snow and Ice Data Center (NSIDC)
-- Copernicus Climate Change Service
-- NASA Earth Observations
+- National Oceanic and Atmospheric Administration (NOAA, https://www.ncei.noaa.gov/products/arctic-antarctic-products-data-information/arctic)
 
 ## Contributing
 
@@ -99,7 +101,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Alejandro Cárdenas-Mavrommatis - [@capgalea](https://github.com/capgalea)
+Charles Galea - [@capgalea](https://github.com/capgalea)
 
 Project Link: [https://github.com/capgalea/Sea_Ice_Forecast_R](https://github.com/capgalea/Sea_Ice_Forecast_R)
 
