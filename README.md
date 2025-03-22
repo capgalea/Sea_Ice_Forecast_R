@@ -82,7 +82,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Charles Galea - [Charles Galea](https://github.com/capgalea)
+Name - [Charles Galea](https://github.com/capgalea)
 
 Project Link: <https://github.com/capgalea/Sea_Ice_Forecast_R>
 
