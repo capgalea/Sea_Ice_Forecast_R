@@ -10,18 +10,10 @@ This repository contains code for developing, training, and evaluating sea ice f
 
 ## Repository Structure
 
-<<<<<<< HEAD
--   `data/`: Contains datasets used for model training and evaluation
--   `scripts/`: R scripts for data preprocessing, model training, and visualization
--   `outputs/`: Folder for storing model outputs and visualization results
--   `functions/`: Helper functions used across different scripts
-=======
 - `data/`: Contains datasets used for model training and evaluation
 - `scripts/`: R scripts for data preprocessing, model training, and visualization
 - `outputs/`: Folder for storing model outputs and visualization results
 - 'R modules/': Additional R libraries not available on common repository site
-- 'images/': Image files
->>>>>>> f0c97ef51cb643953ef1ae3eedc9a92bb285ac05
 
 ## Features
 
