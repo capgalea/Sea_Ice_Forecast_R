@@ -68,25 +68,6 @@ This repository contains code for developing, training, and evaluating sea ice f
 3.  Use evaluation scripts to assess model performance
 4.  Generate visualizations to interpret results
 
-Example workflow:
-
-``` r
-# Load the required libraries
-source("functions/load_libraries.R")
-
-# Preprocess sea ice data
-source("scripts/preprocess_sea_ice_data.R")
-
-# Train forecast models
-source("scripts/train_models.R")
-
-# Evaluate model performance
-source("scripts/evaluate_models.R")
-
-# Generate visualizations
-source("scripts/visualize_results.R")
-```
-
 ## Data Sources
 
 The models use sea ice concentration data from various sources including: - National Oceanic and Atmospheric Administration (NOAA, <https://www.ncei.noaa.gov/products/arctic-antarctic-products-data-information/arctic>)
